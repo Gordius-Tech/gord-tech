@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gordius-Tech Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linkelni a CSS fájlt -->
 </head>
 <body>
-    <h1>Sziasztok ez lenne az én első oldalam am a githubon fog megjelenni</h1>
+
+<div id="left">
+    <h2>Programozási alapfeladatok</h2>
+    <p>Kattints a feladatra, hogy megjelenjen a megoldás a jobb oldalon.</p>
+    <h3>Elágazások</h3>
+    <ol>
+        <li><a href="#" onclick="loadFile('elag01.py')">Írj programot, amely bekér egy számot és eldönti, hogy a páros vagy páratlan!</a></li>
+        <li><a href="#" onclick="loadFile('elag02.py')">Írj programot, amely bekér egy számot és eldönti, hogy a szám pozitív, negatív vagy nulla!</a></li>
+        <li><a href="#" onclick="loadFile('elag03.py')">Írj programot, amely bekéri egy személy életkorát és besorolja őt egy korosztályba!</a></li>
+        <ul> 
+            <li>0-12 évig gyermek</li>
+            <li>13-19 évig tinédzser</li>
+            <li>20-64 évig felnőtt</li>
+            <li>65 év fölött idős</li>
+        </ul>
+        <li><a href="#" onclick="loadFile('elag04.py')">Kérjünk be két egész számot majd írjuk ki, hogy az első nagyobb, a második a nagyobb vagy a két szám egyenlő!</a></li>
+        <li><a href="#" onclick="loadFile('elag05.py')">Kérjünk be két számot írjuk ki őket növekvő sorrendbe őket!</a></li>
+        <li><a href="#" onclick="loadFile('elag06.py')">Kérjük be egy hónap sorszámát és állapítsuk meg hogy az adott hónap télen, tavasszal, nyáron vagy ősszel van. </a></li>
+        <li><a href="#" onclick="loadFile('elag07.py')">Írj programot, amely bekér egy pontszámot (0-100 között) és kiírja a hozzá tartozó osztályzatot.</a></li>
+        <ul>
+            <li>0-49 - Elégtelen</li>
+            <li>50-59 - Elégséges</li>
+            <li>60-69 - Közepes</li>
+            <li>70-84 - Jó</li>
+            <li>85-100 - Jeles</li>
+        </ul>
+        <li><a href="#" onclick="loadFile('elag08.py')">Kérjük be a hónap sorszámát és írjuk ki hány napos az a hónap!</a></li>
+        <li><a href="#" onclick="loadFile('elag09.py')">Kérjünk be három szakasz hosszát és állapítsuk meg hogy a három szakaszból szerkeszthető e háromszög!</a></li>
+        <li><a href="#" onclick="loadFile('elag10.py')">Írj egy programot, amely bekér egy felhasználói nevet és egy jelszót. A program ellenőrzi, hogy a felhasználó neve és jelszava helyes-e, és megfelelő üzenetet ír ki (pl: Sikeres bejelentkezés vagy Hibás adatok). A felhasználói név: admin a jelszó hozzá: titkos. </a></li>
+        <li><a href="#" onclick="loadFile('elag11.py')">Írj egy programot, amely bekér egy számot, és ellenőrzi, hogy osztható-e 3-mal, 5-tel, vagy mindkettővel.</a></li>
+        <li><a href="#" onclick="loadFile('elag12.py')">Írj egy programot, amely kiszámítja egy alkalmazott bónuszát. A bónusz meghatározása a következő szabályok szerint történik:</a></li>
+        <ul>
+          <li>Ha az alkalmazott eladása 10000 Ft felett van, akkor 1000 Ft bónuszt kap.</li>
+          <li>Ha az eladás 5000 és 9999 Ft között van, akkor 500 Ft bónuszt kap.</li>
+          <li>Ha az eladás 5000 Ft alatt van, akkor nincs bónusz..</li>
+        </ul>
+        <!--<li><a href="#" onclick="loadFile('a fájl neve ide')">A feladat szövege ide.</a></li>-->
+    </ol>
+    <h3>Előltesztelő ciklusok</h3>
+    <ol>
+        <li><a href="#" onclick="loadFile('while01.py')">Írj egy programot, amely egy számot kér be a felhasználótól, és addig kéri, amíg a bevitt szám nem lesz pozitív.</a></li>
+        <li><a href="#" onclick="loadFile('while02.py')">Írj egy programot, amely addig kér be számokat a felhasználótól, amíg a megadott számok összege el nem éri a 100-at. Minden egyes szám beírása után kiírja az eddigi összeget.</a></li>
+        <li><a href="#" onclick="loadFile('while03.py')">Kérj be a felhasználótól pozitív egész számokat, és számold össze őket. A ciklus addig fusson, amíg a felhasználó egy negatív számot ad meg. A negatív szám beírása után a program kiírja az eddig megadott számok összegét.</a></li>
+        <li><a href="#" onclick="loadFile('while04.py')">Kérj be a felhasználótól számokat addig amig a szám 5-el osztható nem lesz. A legvégén írasd ki, hogy hányadik szám lett 5-el oszható!</a></li>
+        <li><a href="#" onclick="loadFile('while05.py')">0 végjelig kérjünk be számokat. Számoljuk meg hány páros és hány páratlan volt közöttük illetve írjuk ki hány számot adtunk meg összesen.</a></li>
+        
+
+        
+    </ol>
+
+    <button onclick="toggleFileVisibility()">Fájl megjelenítés/eltüntetés</button>
+</div>
+
+<div id="right">
+    <h2>Fájl tartalma</h2>
+    <pre id="file-content" class="hidden">A fájl tartalma itt fog megjelenni...</pre>
+</div>
+
+<script src="script.js"></script> <!-- Linkelni a JavaScript fájlt -->
 </body>
 </html>
