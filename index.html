@@ -114,29 +114,54 @@
         <li><a href="#" onclick="loadFile('str05.py')">Kérj be két szöveget és állapítsd meg hogy a két szöveg ugyan az e (kis és nagybetűre ne legyen érzékeny a program)!</a></li>
         <li><a href="#" onclick="loadFile('str06.py')">Kérjünk be két szöveget és írjuk ki melyik a hosszabb és hány karakter és hány karakterrel hosszabb a rövidebb szövegtől!</a></li>
     </ol>
-    <h3>Feladatok listákra</h3>
+    <h3>Egyszerű feladatok listákra</h3>
     <p>A feladatok esetén, ahol nincs megadva konkrét bemeneti adat, a listát a megadott elemszám és értéktartomány alapján véletlen egészszámokkal kell feltölteni.</p>
     <ol>
-         <li><a href="#" onclick="loadFile('lista01.py')">Hozzunk létre egy 10 elemű listát, amelyet -100 és 100 közötti véletlenszámokkal töltünk fel. Ezután írjuk ki a lista elemeit a képernyőre</a></li>
-         <li><a href="#" onclick="loadFile('lista02.py')">Töltsünk fel egy 20 elemű listát véletlenszerű egész számokkal a 0 és 100 közötti intervallumból. Ezután írjuk ki a lista minden második elemét a képernyőre.</a></li>
-         <li><a href="#" onclick="loadFile('lista03.py')">Töltsünk fel véletlen egész számmal egy 100 elemű listát 10-100 intervallumban. Íjuk ki azokat a számokat amik 50-től nagyobbak!</a></li>
-         <li><a href="#" onclick="loadFile('lista04.py')">Töltsünk fel véletlen egész számmal egy 18 elemű listát -20-20 intervallumban. Számoljuk meg hány db 10-től nagyobb szám van!</a></li>
-        
+        <li><a href="#" onclick="loadFile('lista01.py')">Hozzunk létre egy 10 elemű listát, amelyet véletlenszerű számokkal töltünk fel a -100 és 100 közötti tartományból, majd jelenítsük meg a lista elemeit.</a></li>
+        <li><a href="#" onclick="loadFile('lista02.py')">Készítsünk egy 20 elemű listát, amely 0 és 100 közötti véletlen számokat tartalmaz. Ezután jelenítsük meg a lista minden második elemét.</a></li>
+        <li><a href="#" onclick="loadFile('lista03.py')">Hozzunk létre egy 100 elemű listát, amely véletlenszerű számokkal van feltöltve a 10 és 100 közötti intervallumban, majd írassuk ki azokat a számokat, amelyek nagyobbak 50-nél!</a></li>
+        <li><a href="#" onclick="loadFile('lista04.py')">Készítsünk egy 18 elemű listát, amely -20 és 20 közötti véletlen számokat tartalmaz, és számoljuk meg, hány olyan szám található benne, amely nagyobb, mint 10.</a></li>
+        <li><a href="#" onclick="loadFile('lista05.py')">Töltsünk fel egy 10 elemű listát véletlenszerű egész számokkal a 0 és 20 közötti tartományból. Ezután számoljuk meg, hány olyan elem található, amely nagyobb, mint 10.</a></li>
+        <li><a href="#" onclick="loadFile('lista06.py')">Készítsünk egy 30 elemű listát véletlenszerű számokkal a 0 és 2000 közötti intervallumban, majd gyűjtsük ki a 10 és 100 közötti számokat, és számoljuk meg, hány ilyen érték található.</a></li>
+        <li><a href="#" onclick="loadFile('lista07.py')">Töltsünk fel egy 25 elemű listát véletlen számokkal, amelyek a -100 és 200 közötti tartományban helyezkednek el. Tekintsük úgy, hogy ezek a víz hőmérsékleteit jelölik. Minden számot elemezve írassuk ki, hogy az adott hőmérséklet szilárd, folyékony vagy gáz halmazállapotú-e.</a></li>
+        <li><a href="#" onclick="loadFile('lista08.py')">Hozzunk létre egy 20 elemű listát, amely véletlenszerű egész számokat tartalmaz a -100 és 100 közötti tartományban. Majd határozzuk meg, hány páros és hány páratlan szám található a listában.</a></li>
+        <li><a href="#" onclick="loadFile('lista09.py')">Töltsünk fel egy 9 elemű listát véletlen számokkal a -20 és 20 közötti tartományban. Módosítsuk a páros számokat úgy, hogy megszorozzuk őket 2-tel, a páratlanokat pedig 3-mal.</a></li>
+        <li><a href="#" onclick="loadFile('lista10.py')">Készítsünk egy 18 elemű listát, amely -100 és 100 közötti véletlenszerű számokat tartalmaz, és számoljuk össze minden harmadik elemét, majd jelenítsük meg az eredményt.</a></li>
+        <li><a href="#" onclick="loadFile('lista11.py')">Töltsünk fel egy listát 22 elemmel tetszőleges egész számokkal. Keressük meg benne a legkisebb és a legnagyobb elemét amit írjunk ki a képernyőre.</a></li>
+        <li><a href="#" onclick="loadFile('lista12.py')">Hozzunk létre egy listát véletlenszerű számokkal, majd számoljuk ki és írassuk ki a listaelemek átlagát!</a></li>
+        <li><a href="#" onclick="loadFile('lista13.py')">Készítsünk egy véletlenszerű számokkal feltöltött listát, és vizsgáljuk meg, hogy egy megadott szám szerepel-e benne! Ha megtaláljuk, azonnal lépjünk ki a ciklusból, és jelezzük, hogy az elem előfordul.</a></li>                
+    </ol>
 
+    <h3>Összetett feladatok listákra</h3>
+    <ol>
+        <li>
+                <p>
+                    Írj programot amelyben megoldod a következő feladatokat.<br>
+                    Adott a következő lista: listam = [3, 7, -2, 15, 0, -8, 21, 14, -5, 6]
+                    <a href="#" onclick="loadFile('lista14.py')"></a>
+                    <ol>
+                            <li>írjuk ki a lista elemeit a képernyőre.</li>
+                            <li>írjuk ki hány elem van a listában.</li>
+                            <li>írjuk ki minden harmadik elemét a listának.</li>
+                            <li>Írjuk ki a lista elemeit visszafelé.</li>
+                            <li>Adjuk össze a lista elemeit és írjuk ki az eredményt.</li>
+                            <li>Keressük meg a legnagyobb és a legkisebb elemét a listának majd írjuk ki őket.</li>
+                            <li>Adjuk össze a pozitív számokat a listából.</li>
+                            <li>Készítsünk egy új listát és írjuk bele a negatív számokat.</li>
+                            <li>Számoljuk meg hány páros szám van a listában.</li>
+                            <li>Hozzunk létre egy új listát amibe az eredeti lista elemeinek a dupláját írjuk bele.</li>
+                            <li>Hozzunk létre egy új listát amibe az eredeti lista elemeinek az abszolút értékét tesszük bele.</li>
+                            <li>Kérjünk be egy számot és állapítsuk meg benne van e a listában az első találat után ne keressünk tovább.</li>
+                            <li>Kérjünk be egy számot és írjuk ki hány tőle nagyobb szám van.</li>
+                            <li>Kérjünk be egy számot és írjuk ki hányadik helyen található tőle kisebb szám a listában.</li>
+                            <li>A lista elemeinél a páros számokat szorozzuk meg kettővel a páratlanokat pedig szorozzuk meg hárommal. Írjuk ki az eredményeket.</li>
+                            <li>Az eredeti listában ahol a lista eleme nagyobb mint 10 írjuk felül 0-ra. </li>
+                            
+                            <p><a href="#" onclick="loadFile('lista14.py')">Megoldás</a></p>
+                    </ol>
+                </p>
 
-5.	Számoljuk meg, hány olyan elem található a listában, amely nagyobb, mint 10.
-6.	Gyűjtsük ki a 10 és 100 közötti számokat, írassuk ki őket, majd jelenítsük meg azt is, hogy hány darab ilyen elem található.
-7.	Tekintsük úgy, hogy a tömb elemei a víz hőmérsékletét jelölik °C-ban.
-Írjuk ki minden elemről, hogy szilárd (≤0 °C), folyékony (1–99 °C) vagy gáz (≥100 °C) halmazállapotnak felel meg!
-8.	Határozzuk meg, hogy a lista számai párosak vagy páratlanok! Írjuk ki az eredményt, és számoljuk meg a páros, illetve a páratlan számok darabszámát.
-9.	Módosítsuk a lista elemeit a következő szabály szerint:
-o	a páros számokat szorozzuk meg 2-vel,
-o	a páratlan számokat szorozzuk meg 3-mal.
-Írjuk ki a módosított számokat, majd számítsuk ki az összegüket!
-10.	Keressük meg a lista legnagyobb és legkisebb elemét, és írjuk ki őket!
-11.	Számítsuk ki és írassuk ki a listaelemek átlagát!
-12.	Vizsgáljuk meg, hogy egy megadott szám szerepel-e a listában!
-Ha megtaláltuk, azonnal lépjünk ki a ciklusból, és jelezzük, hogy az adott szám előfordul.
+        </li>
     </ol>
     
     <button onclick="toggleFileVisibility()">Fájl megjelenítés/eltüntetés</button>
@@ -150,6 +175,7 @@ Ha megtaláltuk, azonnal lépjünk ki a ciklusból, és jelezzük, hogy az adott
 <script src="script.js"></script> <!-- Linkelni a JavaScript fájlt -->
 </body>
 </html>
+
 
 
 
