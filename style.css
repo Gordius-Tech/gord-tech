@@ -11,12 +11,17 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
     border-right: 2px solid #ccc;
+    overflow-y: scroll;
 }
 
 #right {
     width: 50%;
     padding: 20px;
     overflow-y: auto;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+
 }
 
 #file-content {
@@ -85,3 +90,8 @@ button:hover {
   margin-bottom: 10px;
   margin-left: 20px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }

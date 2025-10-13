@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css"> <!-- Linkelni a CSS fájlt -->
 </head>
 <body>
-
+<div class="container">
 <div id="left">
     <h2>Programozási alapfeladatok</h2>
     <p>Kattints a feladatra, hogy megjelenjen a megoldás a jobb oldalon.</p>
@@ -170,7 +170,7 @@
             <div class="lenyilo-container" onclick="toggleSzoveg(this)">
                 <div class="rovid-szoveg">Kasszasiker</div>
                 <div class="hosszabb-szoveg">
-                    <h2>Kasszasiker <a href="#" onclick="loadFile('lista14.py')">Megoldás</a></h2>
+                    <h2>Kasszasiker <a href="#" onclick="loadFile('kasszasiker.py')">Megoldás</a></h2>
                     <p>A feladatok során egy bolt havi bevételének napi adatait fogjuk elemezni. A bolt vezetője kíváncsi arra, hogy hogyan alakulnak a napi bevételek, és szeretné azokat különböző módokon vizsgálni, hogy jobban megértse az üzlet teljesítményét és azonosíthassa a problémás időszakokat. Mivel minden egyes napnak megvan a saját bevétele, ezért ezek az adatokat egy listában tároljuk. A lista minden egyes eleme egy nap bevételét reprezentálja.  Készíts programot a következő feladatok megoldására. A program neve legyen kasszasiker. A programhoz használd fel ezt a listát.</p>
                     <p>
                     bevetelek = [
@@ -211,6 +211,7 @@
     <pre id="file-content" class="hidden">A fájl tartalma itt fog megjelenni...</pre>
 </div>
 
+</div>
 <script src="script.js"></script> <!-- Linkelni a JavaScript fájlt -->
 </body>
 </html>
