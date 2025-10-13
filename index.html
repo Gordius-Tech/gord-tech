@@ -13,7 +13,7 @@
     <p>Kattints a feladatra, hogy megjelenjen a megoldás a jobb oldalon.</p>
     
     <h3>Kezdő feladatok</h3>
-    <ol>
+    <ol class="kodos-lista">
         <li><a href="#" onclick="loadFile('alap01.py')">Két szám összeadása: Két számot adj össze és írd ki az eredményt.</a></li>
         <li><a href="#" onclick="loadFile('alap02.py')">Szorzás két számmal: Két számot szorozz össze és írd ki az eredményt.</a></li>
         <li><a href="#" onclick="loadFile('alap03.py')">Két szám osztása (egész szám eredmény): Két számot ossz el, és írd ki az egész szám eredményt (ne legyen törtrész).</a></li>
@@ -35,7 +35,7 @@
     </ol>  
      
     <h3>Elágazások</h3>
-    <ol>
+    <ol class="kodos-lista">
         <li><a href="#" onclick="loadFile('elag01.py')">Írj programot, amely bekér egy számot és eldönti, hogy a páros vagy páratlan!</a></li>
         <li><a href="#" onclick="loadFile('elag02.py')">Írj programot, amely bekér egy számot és eldönti, hogy a szám pozitív, negatív vagy nulla!</a></li>
         <li><a href="#" onclick="loadFile('elag03.py')">Írj programot, amely bekéri egy személy életkorát és besorolja őt egy korosztályba!</a></li>
@@ -70,7 +70,7 @@
         <li><a href="#" onclick="loadFile('elag14.py')">Kérjünk be egy számot 1 és 7 között, és írjuk ki, hogy az adott számnak megfelelő nap melyik napja van a héten.</a></li>
     </ol>
     <h3>Előltesztelő ciklusok</h3>
-    <ol>
+    <ol class="kodos-lista">
         <li><a href="#" onclick="loadFile('while01.py')">Írj egy programot, amely egy számot kér be a felhasználótól, és addig kéri, amíg a bevitt szám nem lesz pozitív.</a></li>
         <li><a href="#" onclick="loadFile('while02.py')">Írj egy programot, amely addig kér be számokat a felhasználótól, amíg a megadott számok összege el nem éri a 100-at. Minden egyes szám beírása után kiírja az eddigi összeget.</a></li>
         <li><a href="#" onclick="loadFile('while03.py')">Kérj be a felhasználótól pozitív egész számokat, és számold össze őket. A ciklus addig fusson, amíg a felhasználó egy negatív számot ad meg. A negatív szám beírása után a program kiírja az eddig megadott számok összegét.</a></li>
@@ -89,7 +89,7 @@
         <!--<li><a href="#" onclick="loadFile('a fájl neve ide')">A feladat szövege ide.</a></li>-->      
     </ol>
     <h3>For ciklusok. A következő feladatokat for ciklus segítségével oldjuk meg.</h3>
-    <ol>
+    <ol class="kodos-lista">
         <li><a href="#" onclick="loadFile('for01.py')">Írjuk ki egymás alá a következő szöveg betűit: abcdefghijk!.</a></li>
         <li><a href="#" onclick="loadFile('for02.py')">Írjuk ki 1-9-ig a számokat!</a></li>
         <li><a href="#" onclick="loadFile('for03.py')">Tízszer írjuk ki egymás alá: Helló!</a></li>
@@ -106,7 +106,7 @@
         <li><a href="#" onclick="loadFile('for14.py')">Kérjünk be egy számot és állapítsuk meg róla hogy prím szám e.</a></li> 
     </ol>
     <h3>Feladatok karakterláncokra (string-ekre).</h3>
-    <ol>
+    <ol class="kodos-lista">
         <li><a href="#" onclick="loadFile('str01.py')">Kérjük be a felhasználó nevét és köszönjünk neki (pl.: Üdvözöllek kedves János).</a></li>
         <li><a href="#" onclick="loadFile('str02.py')">Kérj be egy tetszőleges szöveget és írjuk ki a hosszát (karaktereinek a számát).</a></li>
         <li><a href="#" onclick="loadFile('str03.py')">Kérj be egy tetszőleges szöveget és betüit írd egymás alá!.</a></li>
@@ -116,7 +116,7 @@
     </ol>
     <h3>Egyszerű feladatok listákra</h3>
     <p>A feladatok esetén, ahol nincs megadva konkrét bemeneti adat, a listát a megadott elemszám és értéktartomány alapján véletlen egészszámokkal kell feltölteni.</p>
-    <ol>
+    <ol class="kodos-lista">
         <li><a href="#" onclick="loadFile('lista01.py')">Hozzunk létre egy 10 elemű listát, amelyet véletlenszerű számokkal töltünk fel a -100 és 100 közötti tartományból, majd jelenítsük meg a lista elemeit.</a></li>
         <li><a href="#" onclick="loadFile('lista02.py')">Készítsünk egy 20 elemű listát, amely 0 és 100 közötti véletlen számokat tartalmaz. Ezután jelenítsük meg a lista minden második elemét.</a></li>
         <li><a href="#" onclick="loadFile('lista03.py')">Hozzunk létre egy 100 elemű listát, amely véletlenszerű számokkal van feltöltve a 10 és 100 közötti intervallumban, majd írassuk ki azokat a számokat, amelyek nagyobbak 50-nél!</a></li>
@@ -133,35 +133,74 @@
     </ol>
 
     <h3>Összetett feladatok listákra</h3>
-    <ol>
+    <ol class="kodos-lista">
         <li>
-                <p>
-                    Írj programot amelyben megoldod a következő feladatokat.<br>
-                    Adott a következő lista: listam = [3, 7, -2, 15, 0, -8, 21, 14, -5, 6]
-                    <a href="#" onclick="loadFile('lista14.py')"></a>
-                    <ol>
-                            <li>írjuk ki a lista elemeit a képernyőre.</li>
-                            <li>írjuk ki hány elem van a listában.</li>
-                            <li>írjuk ki minden harmadik elemét a listának.</li>
-                            <li>Írjuk ki a lista elemeit visszafelé.</li>
-                            <li>Adjuk össze a lista elemeit és írjuk ki az eredményt.</li>
-                            <li>Keressük meg a legnagyobb és a legkisebb elemét a listának majd írjuk ki őket.</li>
-                            <li>Adjuk össze a pozitív számokat a listából.</li>
-                            <li>Készítsünk egy új listát és írjuk bele a negatív számokat.</li>
-                            <li>Számoljuk meg hány páros szám van a listában.</li>
-                            <li>Hozzunk létre egy új listát amibe az eredeti lista elemeinek a dupláját írjuk bele.</li>
-                            <li>Hozzunk létre egy új listát amibe az eredeti lista elemeinek az abszolút értékét tesszük bele.</li>
-                            <li>Kérjünk be egy számot és állapítsuk meg benne van e a listában az első találat után ne keressünk tovább.</li>
-                            <li>Kérjünk be egy számot és írjuk ki hány tőle nagyobb szám van.</li>
-                            <li>Kérjünk be egy számot és írjuk ki hányadik helyen található tőle kisebb szám a listában.</li>
-                            <li>A lista elemeinél a páros számokat szorozzuk meg kettővel a páratlanokat pedig szorozzuk meg hárommal. Írjuk ki az eredményeket.</li>
-                            <li>Az eredeti listában ahol a lista eleme nagyobb mint 10 írjuk felül 0-ra. </li>
-                            
-                            <p><a href="#" onclick="loadFile('lista14.py')">Megoldás</a></p>
-                    </ol>
-                </p>
-
+        <div class="lenyilo-container" onclick="toggleSzoveg(this)">
+                <div class="rovid-szoveg">Csak egy újabb listás feladatsor</div>
+                <div class="hosszabb-szoveg">
+                    <h2>Csak egy újabb listás feladatsor <a href="#" onclick="loadFile('lista14.py')">Megoldás</a></h2>
+                    <p>Írj programot amelyben megoldod a következő feladatokat.</p>
+                    <p>
+                        Adott a következő lista: listam = [3, 7, -2, 15, 0, -8, 21, 14, -5, 6]
+                    </p>
+                    <ol class="kodos-lista">
+                        <li>írjuk ki a lista elemeit a képernyőre.</li>
+                        <li>írjuk ki hány elem van a listában.</li>
+                        <li>írjuk ki minden harmadik elemét a listának.</li>
+                        <li>Írjuk ki a lista elemeit visszafelé.</li>
+                        <li>Adjuk össze a lista elemeit és írjuk ki az eredményt.</li>
+                        <li>Keressük meg a legnagyobb és a legkisebb elemét a listának majd írjuk ki őket.</li>
+                        <li>Adjuk össze a pozitív számokat a listából.</li>
+                        <li>Készítsünk egy új listát és írjuk bele a negatív számokat.</li>
+                        <li>Számoljuk meg hány páros szám van a listában.</li>
+                        <li>Hozzunk létre egy új listát amibe az eredeti lista elemeinek a dupláját írjuk bele.</li>
+                        <li>Hozzunk létre egy új listát amibe az eredeti lista elemeinek az abszolút értékét tesszük bele.</li>
+                        <li>Kérjünk be egy számot és állapítsuk meg benne van e a listában az első találat után ne keressünk tovább.</li>
+                        <li>Kérjünk be egy számot és írjuk ki hány tőle nagyobb szám van.</li>
+                        <li>Kérjünk be egy számot és írjuk ki hányadik helyen található tőle kisebb szám a listában.</li>
+                        <li>A lista elemeinél a páros számokat szorozzuk meg kettővel a páratlanokat pedig szorozzuk meg hárommal. Írjuk ki az eredményeket.</li>
+                        <li>Az eredeti listában ahol a lista eleme nagyobb mint 10 írjuk felül 0-ra. </li>
+                       
+                </ol>
+                </div>
+              </div>
         </li>
+<br>
+        <li>
+            <div class="lenyilo-container" onclick="toggleSzoveg(this)">
+                <div class="rovid-szoveg">Kasszasiker</div>
+                <div class="hosszabb-szoveg">
+                    <h2>Kasszasiker <a href="#" onclick="loadFile('lista14.py')">Megoldás</a></h2>
+                    <p>A feladatok során egy bolt havi bevételének napi adatait fogjuk elemezni. A bolt vezetője kíváncsi arra, hogy hogyan alakulnak a napi bevételek, és szeretné azokat különböző módokon vizsgálni, hogy jobban megértse az üzlet teljesítményét és azonosíthassa a problémás időszakokat. Mivel minden egyes napnak megvan a saját bevétele, ezért ezek az adatokat egy listában tároljuk. A lista minden egyes eleme egy nap bevételét reprezentálja.  Készíts programot a következő feladatok megoldására. A program neve legyen kasszasiker. A programhoz használd fel ezt a listát.</p>
+                    <p>
+                    bevetelek = [
+                        25000, 21000, 18000, 27000, 22000, 23000, 21000, 19000, 24000, 21000,
+                        20000, 25000, 26000, 19000, 22000, 24000, 26000, 23000, 21000, 25000,
+                        28000, 30000, 29000, 25000, 22000, 27000, 26000, 24000, 23000, 25000
+                    ]
+                    </p>
+                    <ol class="kodos-lista">
+                    <li>Írjuk ki hány napos volt a vizsgált hónap.</li>
+                    <li>Mikor és mennyi volt a legnagyobb bevételt a hónapban. Írd ki ezt a napot (indexét a listában) és a bevételt!</li>
+                    <li>A boltvezető kíváncsi arra, hogy melyik nap bevétele sikerült a legrosszabbra. Add meg neki mennyi volt a legrosszabb napon a bevétel és melyik napon volt ez (a lista indexe).</li>
+                    <li>A bolt tulajdonosa szeretné tudni, hogy összesen mennyi pénzt keresett a bolt a hónap során. Írd ki az összesített bevételt!</li>
+                    <li>Az átlagos napi bevétel kiszámítása segíthet a bolt teljesítményének átfogóbb megértésében. Határozzuk meg, mennyi a havi átlagos bevétel és írjuk ki azt.</li>
+                    <li>A bolt vezetője szeretné tudni, mely napokon voltak a bevételek magasak. Listázd ki azokat a napokat (indexeket), amikor a bevétel meghaladta a 28000 forintot!</li>
+                    <li>A bolt tulajdonosa kíváncsi arra, hogy hány napon keresztül voltak gyenge teljesítmények, amikor a bevétel 20000 forint alatt maradt. Listázd ki azokat a napokat (indexeket), amikor a bevétel kevesebb, mint 20000 forint volt!</li>
+                    <li>A bolt vezetője szeretné tudni, hány nap volt, amikor a bevétel meghaladta a 20000 forintot. Számold meg, hány nap volt, amikor a bevétel meghaladta a 20000 forintot!</li>
+                    <li>A bolt tulajdonosa kíváncsi arra, hogy hány nap volt a hónapban, amikor a bevétel nem érte el a 20000 forintot. Számold meg, hány nap volt, amikor a bevétel nem érte el a 20000 forintot!</li>
+                    <li>A bolt vezetője szeretné tudni, mekkora különbség van a legnagyobb és legkisebb napi bevétel között. Számold ki a legnagyobb és legkisebb bevétel közötti különbséget!</li>
+                    <li>A bolt vezetője kíváncsi, hogy melyek voltak a hónap legstabilabb napjai, amikor a bevétel az átlagos szint körül mozgott, és nem voltak nagy kiugrások. Azonosítsd a hónap legstabilabb napjait, ahol a bevétel nem térhet el az átlagtól 3000 Ft-tól többel!</li>
+                    <li>A bolt vezetője arra kíváncsi, hogy mely nap volt a legváltozatosabb a bevételek tekintetében, azaz, amikor a bevétel jelentősen eltért az átlagtól. Azonosítsd azt a napot, amikor a bevétel az átlagtól a legnagyobb ingadozást mutatta!</li>
+                    <li>A bolt vezetője szeretné tudni, hány napon keresztül maradt a bevétel az átlagos napi bevétel alatt, hogy lássa, mikor nem teljesítettek jól az eladások. Számold meg, hány nap volt, amikor a bevétel a napi átlag alatt maradt!</li>
+                    <li>A bolt tulajdonosa szeretné tudni, hány nap volt, amikor a bevétel pontosan 15000 forintot tett ki. Számold meg, hány nap volt, amikor a bevétel pontosan 15000 forint volt!</li>
+                    <li>Elemezd a havi bevételt, és írd le a napi változások főbb trendjeit! Ha egy nap rosszabb volt mint az előző nap akkor írjuk ki a bevétel gyengült szöveget ha jobb volt akkor írjuk ki a bevétel javult szöveget ha ugyan annyi a bevétel akkor írjuk nem változott.</li>
+                    <li>Azt tudjuk, hogy a lista első eleme egy hétfői nap bevételét tartalmazza. Adjuk össze a szombat és vasárnapi bevételeket majd írjuk ki az eredményt a képernyőre.</li>
+                    </ol>
+                </div>
+              </div>
+        </li>
+
     </ol>
     
     <button onclick="toggleFileVisibility()">Fájl megjelenítés/eltüntetés</button>

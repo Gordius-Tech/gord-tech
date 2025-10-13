@@ -43,3 +43,45 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.lenyilo-container {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  .rovid-szoveg {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  .hosszabb-szoveg {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    color: #333;
+  }
+  
+  .hosszabb-szoveg.nyitott {
+    max-height: 200px; /* Elég nagy érték, hogy látszódjon a teljes szöveg */
+  }
+  
+  .kodos-lista {
+    font-family: Consolas, monospace;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    list-style-type: decimal;
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+  }
+
+
+
+.kodos-lista li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}

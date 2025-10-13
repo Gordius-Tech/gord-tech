@@ -23,3 +23,14 @@ function toggleFileVisibility() {
     const fileContent = document.getElementById('file-content');
     fileContent.classList.toggle('hidden');
 }
+
+function toggleSzoveg(elem) {
+    const szoveg = elem.querySelector(".hosszabb-szoveg");
+  
+    if (szoveg.style.maxHeight) {
+      szoveg.style.maxHeight = null;
+    } else {
+      szoveg.style.maxHeight = szoveg.scrollHeight + "px";
+    }
+  }
+  
