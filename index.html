@@ -165,7 +165,7 @@
                 </div>
               </div>
         </li>
-<br>
+
         <li>
             <div class="lenyilo-container" onclick="toggleSzoveg(this)">
                 <div class="rovid-szoveg">Kasszasiker</div>
@@ -223,12 +223,43 @@
                     <li>Módosítsd a meglévő listát úgy, hogy a 0 Ft-os napok helyett 500 Ft szerepeljen!</li>
                     <li>Az új lista alapján számold ki, hogy Vilmosnak szüksége lenne-e kölcsönre a testvérétől, hogy a kiadásait fedezni tudja. Ha igen, mennyi pénzre lenne szüksége? Ha nem, akkor ezt is jelezd!</li>
                     <li>Mekkora összeget kell Vilmosnak visszafizetnie a testvérének, ha 10%-os kamatot számítanak a kölcsönre?</li>
-                    <li>Tudd meg, hogy a hét egyes napjain mennyivel nőtt vagy csökkent a kiadásai előző naphoz képest! Jeleníts</li>
+                    <li>Számoljuk ki, hogy a hét egyes napjain mennyivel nőtt vagy csökkent a kiadásai előző naphoz képest! Írjuk ki az eredményeket.</li>
                     <li>Jelenítsük meg a hét napjainak sorszámát! Minden naphoz írjuk oda, hogy ’több', ha aznap többet költene Vilmos, mint az átlag, 'kevesebb', ha kevesebbet költene, és 'átlag', ha pontosan annyit költene, mint az átlag. (Figyelj oda, mert a 10. feladatban a lista tartalmát megváltoztattuk).</li>
                     </ol>
                 </div>
               </div>
         </li>
+
+        <li>
+            <div class="lenyilo-container" onclick="toggleSzoveg(this)">
+                <div class="rovid-szoveg">Kódkar-Rally</div>
+                <div class="hosszabb-szoveg">
+                    <h2>Kódkar-Rally<a href="#" onclick="loadFile('kodkar.py')">Megoldás</a></h2>
+                    <p>A világ egyik legkeményebb autóversenye, a Dakar-rali nemcsak a járművek, hanem a versenyzők kitartását is próbára teszi. A hosszú sivatagon, köves hegyeken, homokdűnéken és kietlen tájakon keresztül minden nap kihívásokkal kell szembenézniük a versenyzőknek.</p>
+                    <p> Ebben a feladatban a Kódkár Rally nevű csapat adataival fogunk dolgozni. Ők idén is rajthoz álltak a legendás Dakar-rali mezőnyében, és minden nap pontosan rögzítették, hány kilométert tettek meg az egyes szakaszokon. Az alábbi lista tartalmazza a napi megtett km-ek számát.</p>
+                    <p>
+                    napitav = [412, 625, 378, 742, 589, 0, 655, 704, 498, 610, 275, 532]
+                    </p>
+                    <p>Készíts egy kodkar nevű programot, amely megoldja a következő feladatokat.</p>
+                    <ol class="kodos-lista">
+                    <li>Állapítsuk meg és írjuk ki hogy összesen hány napig versenyeztek a Kódkar Rally csapat tagjai.</li>
+                    <li>Írjuk ki a Kódkár csapat hány km-t tett meg összesen a versenyen.</li>
+                    <li>Határozd meg, hány napot töltöttek pihenéssel, amikor egyáltalán nem haladtak, és jelenítsd meg azoknak a napoknak a sorszámát. </li>
+                    <li>A csapat saját biztonsági protokoll szerint ellenőrzik a gumikat amiben az szerepel hogy 200 km-enként vizsgálják át azokat. Számoljuk ki hány gumiellenőrzés történt a verseny során.</li>
+                    <li>Határozd meg, melyik napon tették meg a legtöbb kilométert, és írasd ki a nap sorszámát és a megtett távolságot. Ha ez a maximum többször is előfordul, elég csak az egyiket megjeleníteni.</li>
+                    <li>Határozd meg, melyik napon tették meg a legkevesebb kilométert a 0 km-es napokat kihagyva, és írasd ki a nap sorszámát és a megtett távolságot (Ha több ilyen nap van elég csak az egyiket megjeleníteni).</li>
+                    <li>Számítsd ki a versenyzők átlagos napi megtett távolságát, de a pihenőnapokat (0 km) hagyd ki a számításból, és írasd ki az eredményt.</li>
+                    <li>Határozd meg, melyik napon haladta meg a csapat az összes megtett táv felét, és írasd ki a nap sorszámát.</li>
+                    <li>Vizsgáld meg minden napot, és írd ki, hogy a megtett táv több, kevesebb, vagy átlagos volt-e az átlaghoz képest. A vizsgálatnál hagyd ki a 0 km-es napokat.</li>
+                    <li>Kérj be a felhasználótól két távolságot – az első érték legyen a kisebb, a második a nagyobb –, majd állapítsd meg, hányszor teljesítették a csapat tagjai a napi távot a két megadott érték között, és írasd ki az eredményt.</li>
+                    <li>Tudjuk, hogy az első nap hétfőre esett. Számold ki, a hétvégeken összesen hány kilométert tett meg a csapat, és írasd ki az eredményt.</li>
+                    <li>Számítsd ki minden napra, hogy a csapat az adott napi távval hány százalékát teljesítette a teljes versenytervnek, és írasd ki listaként.</li>
+                    <li>Találd meg azokat a napokat, amikor a csapat több mint 20%-kal többet vagy kevesebbet tett meg az átlagos napi távhoz képest, és jelöld külön.</li>
+                    </ol>
+                </div>
+              </div>
+        </li>
+
     </ol>
     
     <button onclick="toggleFileVisibility()">Fájl megjelenítés/eltüntetés</button>
@@ -243,6 +274,7 @@
 <script src="script.js"></script> <!-- Linkelni a JavaScript fájlt -->
 </body>
 </html>
+
 
 
 
