@@ -200,7 +200,35 @@
                 </div>
               </div>
         </li>
-
+ <li>
+            <div class="lenyilo-container" onclick="toggleSzoveg(this)">
+                <div class="rovid-szoveg">Zsebpénz kurátor</div>
+                <div class="hosszabb-szoveg">
+                    <h2>Zsebpénz kurátor<a href="#" onclick="loadFile('zsebpenz.py')">Megoldás</a></h2>
+                    <p>Vilmos egy 14 éves fiú, aki hetente 6 000 Ft zsebpénzt kap a szüleitől. Ezt a pénzt ő maga oszthatja be, de igyekszik tudatosan költeni. Mielőtt elkezdődik a hét, készít egy tervet, hogy mennyit szeretne költeni naponta. Az alábbi lista tartalmazza a tervezett napi költéseket.</p>
+                    <p>
+                    kiadasok = [1000, 1200, 0, 1500, 2000, 300, 0]
+                    </p>
+                    <p>Írj programot és mentsd el zsebpenz néven amiben a következő feladatokat oldja meg</p>
+                    <ol class="kodos-lista">
+                    <li>Számítsd ki, hogy Vilmos összesen mennyi pénzt költ el az adott héten! A program jelezze, ha ez az összeg meghaladja a rendelkezésére álló zsebpénzt.</li>
+                    <li>Határozd meg, hány olyan nap van az adott héten, amikor Vilmos nem költött semmit.</li>
+                    <li>Tudd meg, hogy melyik napon költene Vilmos a legtöbbet, és mennyi lenne az összeg? Ha több nap is van, amikor ugyanannyit költ, elég csak az egyiket megjeleníteni.</li>
+                    <li>Melyik napon költene Vilmos a legkevesebbet (kivéve a nulla forintos napokat)? Ha több nap is van ugyanakkora kiadással, elég csak az egyiket kiírni.</li>
+                    <li>Számítsd ki Vilmos tervezett átlagos napi kiadását a héten!</li>
+                    <li>Mennyi pénz maradna Vilmosnak a hét végére? (Azaz mennyit költött, és mennyivel csökkent a zsebpénze.)</li>
+                    <li>Hozz létre egy új listát, amely kizárólag a 1000 Ft feletti kiadásokat tartalmazza!</li>
+                    <li>Készíts egy új listát, amelyben minden kiadást megduplázol!</li>
+                    <li>Számold ki, mekkora lenne Vilmos heti kiadása a hétköznapokon (hétfőtől péntekig), valamint a hétvégén (szombat és vasárnap)!</li>
+                    <li>Módosítsd a meglévő listát úgy, hogy a 0 Ft-os napok helyett 500 Ft szerepeljen!</li>
+                    <li>Az új lista alapján számold ki, hogy Vilmosnak szüksége lenne-e kölcsönre a testvérétől, hogy a kiadásait fedezni tudja. Ha igen, mennyi pénzre lenne szüksége? Ha nem, akkor ezt is jelezd!</li>
+                    <li>Mekkora összeget kell Vilmosnak visszafizetnie a testvérének, ha 10%-os kamatot számítanak a kölcsönre?</li>
+                    <li>Tudd meg, hogy a hét egyes napjain mennyivel nőtt vagy csökkent a kiadásai előző naphoz képest! Jeleníts</li>
+                    <li>Jelenítsük meg a hét napjainak sorszámát! Minden naphoz írjuk oda, hogy ’több', ha aznap többet költene Vilmos, mint az átlag, 'kevesebb', ha kevesebbet költene, és 'átlag', ha pontosan annyit költene, mint az átlag. (Figyelj oda, mert a 10. feladatban a lista tartalmát megváltoztattuk).</li>
+                    </ol>
+                </div>
+              </div>
+        </li>
     </ol>
     
     <button onclick="toggleFileVisibility()">Fájl megjelenítés/eltüntetés</button>
@@ -215,6 +243,7 @@
 <script src="script.js"></script> <!-- Linkelni a JavaScript fájlt -->
 </body>
 </html>
+
 
 
 
